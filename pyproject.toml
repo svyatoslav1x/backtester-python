@@ -1,0 +1,13 @@
+[project]
+name = "backtester-python"
+version = "0.1.0"
+description = "An event-driven backtester written in Python."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "config>=0.5.1",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.0",
+    "quandl>=3.7.0",
+    "tqdm>=4.67.1",
+]
